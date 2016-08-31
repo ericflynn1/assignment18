@@ -60,3 +60,15 @@ function exponent(digit, expo) {
 }
 let answer = digits.map(exponent);
 console.log(answer);
+function combine(answer) {
+    
+}
+// Need a function to decide whether a number is narcissistic
+function checkIt(nummers, answer) {
+    if (nummers === answer){ 
+    return true
+} else {
+    return false
+}
+};
+console.log(checkIt(nummers, answer));
